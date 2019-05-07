@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IHM.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="388dp"
+                android:layout_height="567dp"
+                android:src="@drawable/img1"/>
+
+            <LinearLayout
+                android:layout_width="508dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_Devoir"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Gestion des Devoirs" />
+
+                <Button
+                    android:id="@+id/btn_Eleve"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Gestion des Eleve" />
+
+                <Button
+                    android:id="@+id/btn_Classe"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Gestion des Classes" />
+
+                <Button
+                    android:id="@+id/btn_Matier"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Gestion des Matier" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="579dp"
+                android:layout_weight="1"
+                android:src="@drawable/img2" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_quitter"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:text="Quitter" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

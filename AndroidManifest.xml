@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mbouchet.gestion_des_notes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".IHM.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IHM.Matiere_Update_DeleteActivity"></activity>
+        <activity android:name=".IHM.Matiere_Add_Activity"></activity>
+        <activity android:name=".IHM.MatiereActivity"></activity>
+        <activity android:name=".IHM.ClasseActivity"></activity>
+        <activity android:name=".IHM.Classe_Update_Delete_Activity"></activity>
+        <activity android:name=".IHM.Classe_Add_Activity"></activity>
+        <activity android:name=".IHM.Eleve_Activity"></activity>
+        <activity android:name=".IHM.Eleve_Update_delete_Activity"></activity>
+        <activity android:name=".IHM.Eleve_Add_Activity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
